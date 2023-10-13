@@ -1,0 +1,72 @@
+
+> tasks@0.1.0 test
+> react-scripts test --coverage
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+PASS src/quizzer/Quizzer.test.tsx
+  ● Console
+
+    console.log
+      daf
+
+      at reset (src/quizzer/QuizExpanded.tsx:48:17)
+
+    console.log
+      daf
+
+      at reset (src/quizzer/QuizExpanded.tsx:48:17)
+
+    console.log
+      daf
+
+      at reset (src/quizzer/QuizExpanded.tsx:48:17)
+
+    console.log
+      daf
+
+      at reset (src/quizzer/QuizExpanded.tsx:48:17)
+
+    console.log
+      daf
+
+      at reset (src/quizzer/QuizExpanded.tsx:48:17)
+
+    console.log
+      daf
+
+      at reset (src/quizzer/QuizExpanded.tsx:48:17)
+
+    console.log
+      daf
+
+      at reset (src/quizzer/QuizExpanded.tsx:48:17)
+
+PASS src/App.test.tsx
+-------------------|---------|----------|---------|---------|--------------------------------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                          
+-------------------|---------|----------|---------|---------|--------------------------------------------
+All files          |   82.78 |    82.75 |   76.71 |   82.06 |                                            
+ src               |   66.66 |       50 |      50 |   66.66 |                                            
+  App.tsx          |   66.66 |       50 |      50 |   66.66 | 16                                         
+ src/interfaces    |       0 |        0 |       0 |       0 |                                            
+  question.ts      |       0 |        0 |       0 |       0 |                                            
+  quiz.ts          |       0 |        0 |       0 |       0 |                                            
+ src/quizzer       |    83.1 |    85.18 |   77.46 |   82.39 |                                            
+  AddQuizModal.tsx |   64.28 |      100 |      40 |   64.28 | 35-55                                      
+  QuestionEdit.tsx |   46.66 |    66.66 |      40 |   46.66 | 28-31,50-51,58-60,68-70,93-166,200,227,252 
+  QuizCard.tsx     |     100 |       80 |     100 |     100 | 32                                         
+  QuizEdit.tsx     |   86.66 |      100 |   73.33 |   85.71 | 32-34,71,101                               
+  QuizExpanded.tsx |     100 |    85.71 |     100 |     100 | 74                                         
+  QuizList.tsx     |     100 |      100 |     100 |     100 |                                            
+  QuizQuestion.tsx |     100 |    85.71 |     100 |     100 | 23-30                                      
+  QuizView.tsx     |     100 |      100 |     100 |     100 |                                            
+  Quizzer.tsx      |     100 |      100 |     100 |     100 |                                            
+-------------------|---------|----------|---------|---------|--------------------------------------------
+
+Test Suites: 2 passed, 2 total
+Tests:       15 passed, 15 total
+Snapshots:   0 total
+Time:        5.059 s
+Ran all test suites.
